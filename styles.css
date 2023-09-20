@@ -1,0 +1,219 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+}
+
+.header {
+	margin:0;
+	display: flex;
+	align-items: center;
+	background-color: #0a0101;
+	padding: 10px; /* tamanho da header (altura)*/
+	margin-top: 0px;
+}
+
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #030102;
+
+}
+  
+.menu li {
+	display: inline-block;
+    align-items: center;
+}
+  
+.menu li a {
+	display: block;
+	padding: 20px 30px;
+	text-decoration: none;
+	color: #ffc8f7;
+	font-size: 16px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+  
+.menu li a:hover {
+	background-color: #f77bdc;
+}
+
+.title{
+    background-color: black;
+    height: 50px;
+    margin-top: -20px;
+}
+  
+#title{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 188, 229);
+    height: 90px;
+    font-size: 75px ;
+    margin-top:-10px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.acess{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 188, 229);
+    height: 30px;
+    font-size: 25px ;
+}
+
+
+#p1{
+    margin-top: -20px;
+   }
+#img1{
+    width: 300px;
+    border: 3px solid black;
+
+}
+
+#p2{
+    margin-top: -10px;
+   }
+#img2{
+    width: 175px;
+    margin-top: -10px;
+}
+
+#p3{
+    margin-top: -10px;
+   }
+#img3{
+    width: 170px;
+    margin-top: 9px;
+}
+ 
+#p4{
+    margin-top: -32px;
+}
+#img4{
+    width: 280px;
+}
+
+#p5{
+    margin-top: 10px;
+}
+#img5{
+    width: 240px;
+    margin-top: 40px;
+}
+     
+#p6{
+    margin-top: 10px;
+}
+#img6{
+    width: 170px;
+    margin-top: 30px;
+}
+  
+.product-container{
+    text-align: left;
+}
+  
+.product-preco{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+  
+.produto-container{
+    text-align: center;
+}
+.product-preco{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+  
+.product-container {
+    display: flex; /* Torna os elementos filhos flexíveis (lado a lado) */
+    justify-content: space-between; /* Distribui espaço igual entre os elementos */
+}
+  
+.product-image {
+    flex: 0 0 30%; /* Define a largura de cada imagem para 30% do espaço disponível */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+  
+.product-image img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+}
+  
+figcaption {
+    margin-top: 10px; /* Adiciona espaço entre a imagem e a legenda */
+}
+
+.descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#im1{
+  width: 170px;
+  margin-top: -5px;
+}
+#pp1{
+    margin-top: -0px;
+}
+
+#im2{
+    width: 280px;
+}
+#pp2{
+    margin-top: -60px;
+}
+
+#im3{
+    width: 170px;
+}
+#pp3{
+    margin-top: -5px;
+}
+.app-item-dropdown{
+    font-size: 40px;
+}
+
+.ng-valid{
+ font-size: 15px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ align-items: center;
+ text-align: center;
+}
+
+button , input, optgroup, select, textarea {
+    color:#f77bdc;
+    background-color: #030102;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    height: 40px;
+}
+
+.word-item{
+    background-color:rgb(255, 188, 229); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rabisco{
+    text-decoration: line-through;
+    color:grey;
+    font-size: 15px;
+}
+
+.col{
+    margin-left: 10px;
+}
+
